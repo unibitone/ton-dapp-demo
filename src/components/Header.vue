@@ -57,8 +57,6 @@ const wallet = useTonWallet() as unknown as Ref<
 >;
 
 onMounted(async () => {
-  await getPublicKey();
-
   console.log("wallet", wallet);
   console.log("tonConnectUI", tonConnectUI?.wallet);
 });
