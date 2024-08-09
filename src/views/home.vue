@@ -5,8 +5,7 @@ import {
 import Header from "../components/Header.vue";
 
 const options = {
-  manifestUrl:
-    "https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json",
+  manifestUrl: "https://ton-dapp.vercel.app/tonconnect-manifest.json",
   uiPreferences: { theme: THEME.DARK },
   walletsListConfiguration: {
     includeWallets: [
